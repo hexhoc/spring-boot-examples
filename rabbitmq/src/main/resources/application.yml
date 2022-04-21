@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: sender-service
+    rabbitmq:
+        host: localhost
+        password: rmq
+        port: 5672
+        username: rmq
+server:
+    port: 30000
