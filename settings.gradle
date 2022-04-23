@@ -1,0 +1,10 @@
+rootProject.name = 'spring-boot-example'
+
+include 'kafka'
+include 'rabbitmq'
+include 'microservices-security:gateway-service'
+include 'microservices-security:config-service'
+include 'microservices-security:discovery-service'
+include 'microservices-security:user-service'
+include 'microservices-security:departments-service'
+include 'microservices-security:auth-service'
